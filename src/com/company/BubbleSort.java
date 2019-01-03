@@ -4,6 +4,10 @@ public class BubbleSort
 {
     public static void bubbleSort(int[] arr, int i, int j)
     {
+        boolean swap = true;
+        while(swap)
+        {
+            swap = false;
             for(j = 1; j < arr.length; j++)
             {
                 i = j - 1;
@@ -12,7 +16,9 @@ public class BubbleSort
                     int x = arr[i];
                     arr[i] = arr[j];
                     arr[j] = x;
+                    swap = true;
                 }
             }
+        }
     }
 }
