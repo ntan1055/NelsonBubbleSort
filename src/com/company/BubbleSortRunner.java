@@ -17,5 +17,8 @@ public class BubbleSortRunner {
         for(int num:testArr)
             System.out.print(num + " ");
         System.out.println();
+
+        SortingUtil.isSorted(testArr);
+        SortingUtil.checkSum(testArr, testArr);
     }
 }
