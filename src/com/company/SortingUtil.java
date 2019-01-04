@@ -30,6 +30,14 @@ public class SortingUtil
                 sorted = false;
             }
         }
+        if(sorted = false)
+        {
+            System.out.println("The array is not sorted.");
+        }
+        else
+        {
+            System.out.println("The array is sorted.");
+        }
     }
 
     public static void checkSum(int[] before, int[] after)
@@ -52,6 +60,14 @@ public class SortingUtil
         else
         {
             equalSum = false;
+        }
+        if(equalSum = true)
+        {
+            System.out.println("The sum before and after are equal.");
+        }
+        if(equalSum = false)
+        {
+            System.out.println("The sum before and after are not equal.");
         }
     }
 }
