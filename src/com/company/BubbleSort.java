@@ -13,9 +13,7 @@ public class BubbleSort
                 i = j - 1;
                 if(arr[j] < arr[i])
                 {
-                    int x = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = x;
+                    swapInt(arr, i, j);
                     swap = true;
                 }
             }
